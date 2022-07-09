@@ -1,0 +1,22 @@
+{
+  "name": "britlexlanding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/horoshopodumaj/britlexLanding.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/horoshopodumaj/britlexLanding/issues"
+  },
+  "homepage": "https://github.com/horoshopodumaj/britlexLanding#readme",
+  "devDependencies": {
+    "sass": "^1.53.0"
+  }
+}
