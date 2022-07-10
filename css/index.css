@@ -3,6 +3,7 @@
   --black: #263238;
   --black-2: #000000;
   --grey: #939393;
+  --grey-2: #8f95a5;
   --white: #ffffff;
 }
 
@@ -101,10 +102,14 @@ h6 {
 .page {
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 .page__box {
   margin: 0 auto;
   max-width: 1338px;
+}
+.page__welcome {
+  margin-top: 20px;
 }
 
 .navbar {
@@ -141,6 +146,47 @@ h6 {
   background-color: var(--white);
   width: 220px;
   height: 70px;
+}
+.button__welcome {
+  height: 118px;
+  width: 438px;
+  border-radius: 15px;
+  font-size: 36px;
+  line-height: 54px;
+  color: var(--white);
+  background-color: var(--black);
+}
+
+.main {
+  flex: 1;
+}
+
+.welcome__body {
+  display: flex;
+  gap: 155px;
+  align-items: center;
+}
+.welcome__content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.welcome__title {
+  font-size: 64px;
+  line-height: 80px;
+  font-weight: 600;
+  color: var(--black-2);
+}
+.welcome__text {
+  font-size: 24px;
+  line-height: 36px;
+  color: var(--grey-2);
+  padding: 40px 0 60px;
+}
+.welcome__img {
+  position: absolute;
+  top: 90px;
+  left: 415px;
 }
 
 /*# sourceMappingURL=index.css.map */

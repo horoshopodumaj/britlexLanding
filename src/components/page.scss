@@ -1,9 +1,14 @@
 .page {
     display: flex;
     flex-direction: column;
+    height: 100%;
 
     &__box {
         margin: 0 auto;
         max-width: 1338px;
+    }
+
+    &__welcome {
+        margin-top: 20px;
     }
 }
