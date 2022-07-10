@@ -1,0 +1,68 @@
+.aboutus {
+    &__body {
+        display: flex;
+        gap: 200px;
+        align-items: center;
+    }
+
+    &__title {
+        text-align: left;
+    }
+
+    &__text {
+        font-size: 20px;
+        line-height: 30px;
+        color: var(--grey-2);
+        padding: 20px 0 30px;
+    }
+
+    &__numbers {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__pupils {
+        text-align: center;
+        & p:first-child {
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 80px;
+            color: var(--black-3);
+        }
+        & p:last-child {
+            font-size: 20px;
+            line-height: 30px;
+            color: var(--grey-2);
+        }
+    }
+
+    &__teachers {
+        text-align: center;
+        & p:first-child {
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 80px;
+            color: var(--black-3);
+        }
+
+        & p:last-child {
+            font-size: 20px;
+            line-height: 30px;
+            color: var(--grey-2);
+        }
+    }
+    &__languages {
+        text-align: center;
+        & p:first-child {
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 80px;
+            color: var(--black-3);
+        }
+
+        & p:last-child {
+            font-size: 20px;
+            line-height: 30px;
+            color: var(--grey-2);
+        }
+    }
+}

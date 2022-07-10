@@ -2,6 +2,7 @@
 :root {
   --black: #263238;
   --black-2: #000000;
+  --black-3: #2a3246;
   --grey: #939393;
   --grey-2: #8f95a5;
   --grey-3: #f5f5f5;
@@ -114,9 +115,13 @@ h6 {
 }
 .page__skills {
   margin-top: 100px;
+  margin-bottom: 235px;
 }
 .page__title {
   margin-bottom: 80px;
+}
+.page__aboutus {
+  margin-bottom: 220px;
 }
 
 .navbar {
@@ -203,9 +208,6 @@ h6 {
   left: 415px;
 }
 
-.skills__body {
-  margin-bottom: 282px;
-}
 .skills__content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -287,6 +289,67 @@ h6 {
   font-weight: 600;
   color: var(--black-2);
   text-align: center;
+}
+
+.aboutus__body {
+  display: flex;
+  gap: 200px;
+  align-items: center;
+}
+.aboutus__title {
+  text-align: left;
+}
+.aboutus__text {
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--grey-2);
+  padding: 20px 0 30px;
+}
+.aboutus__numbers {
+  display: flex;
+  justify-content: space-between;
+}
+.aboutus__pupils {
+  text-align: center;
+}
+.aboutus__pupils p:first-child {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 80px;
+  color: var(--black-3);
+}
+.aboutus__pupils p:last-child {
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--grey-2);
+}
+.aboutus__teachers {
+  text-align: center;
+}
+.aboutus__teachers p:first-child {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 80px;
+  color: var(--black-3);
+}
+.aboutus__teachers p:last-child {
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--grey-2);
+}
+.aboutus__languages {
+  text-align: center;
+}
+.aboutus__languages p:first-child {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 80px;
+  color: var(--black-3);
+}
+.aboutus__languages p:last-child {
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--grey-2);
 }
 
 /*# sourceMappingURL=index.css.map */
