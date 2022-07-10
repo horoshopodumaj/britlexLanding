@@ -17,4 +17,12 @@
         color: var(--white);
         background-color: var(--black);
     }
+
+    &__card {
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: 500;
+        color: var(--white);
+        background-color: var(--black);
+    }
 }

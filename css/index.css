@@ -4,6 +4,7 @@
   --black-2: #000000;
   --grey: #939393;
   --grey-2: #8f95a5;
+  --grey-3: #f5f5f5;
   --white: #ffffff;
 }
 
@@ -111,6 +112,12 @@ h6 {
 .page__welcome {
   margin-top: 20px;
 }
+.page__skills {
+  margin-top: 100px;
+}
+.page__title {
+  margin-bottom: 80px;
+}
 
 .navbar {
   display: flex;
@@ -156,6 +163,13 @@ h6 {
   color: var(--white);
   background-color: var(--black);
 }
+.button__card {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 500;
+  color: var(--white);
+  background-color: var(--black);
+}
 
 .main {
   flex: 1;
@@ -187,6 +201,85 @@ h6 {
   position: absolute;
   top: 90px;
   left: 415px;
+}
+
+.skills__body {
+  margin-bottom: 282px;
+}
+.skills__content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1.5fr 0.8fr;
+  grid-template-areas: "speak write read" "speak listen listen";
+  grid-gap: 18px;
+}
+.skills__speaking {
+  grid-area: speak;
+}
+.skills__speaking .card__title {
+  padding: 4px 0 5px;
+}
+.skills__speaking .card__content {
+  padding-bottom: 36px;
+}
+.skills__writing {
+  grid-area: write;
+}
+.skills__writing .card__content {
+  padding-bottom: 35px;
+}
+.skills__writing .button__card {
+  margin-bottom: 44px;
+}
+.skills__reading {
+  grid-area: read;
+}
+.skills__reading .card__content {
+  padding-bottom: 35px;
+}
+.skills__reading .button__card {
+  margin-bottom: 44px;
+}
+.skills__listening {
+  grid-area: listen;
+}
+.skills__listening .card__title {
+  padding-top: 15px;
+}
+.skills__listening .card__content {
+  padding-bottom: 25px;
+}
+.skills__listening .button__card {
+  margin-bottom: 50px;
+}
+
+.card {
+  background-color: var(--grey-3);
+  border-radius: 10px;
+}
+.card__title {
+  font-size: 30px;
+  line-height: 80px;
+  color: var(--black);
+  font-weight: 600;
+}
+.card__body {
+  padding: 0 39px;
+}
+.card__content {
+  line-height: 24px;
+  color: var(--grey-2);
+}
+.card_mode {
+  display: flex;
+}
+
+.title {
+  font-size: 48px;
+  line-height: 80px;
+  font-weight: 600;
+  color: var(--black-2);
+  text-align: center;
 }
 
 /*# sourceMappingURL=index.css.map */

@@ -1,0 +1,64 @@
+.skills {
+    &__body {
+        margin-bottom: 282px;
+    }
+
+    &__content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1.5fr 0.8fr;
+        grid-template-areas:
+            "speak write read"
+            "speak listen listen";
+        grid-gap: 18px;
+    }
+    &__speaking {
+        grid-area: speak;
+
+        & .card__title {
+            padding: 4px 0 5px;
+        }
+
+        & .card__content {
+            padding-bottom: 36px;
+        }
+    }
+
+    &__writing {
+        grid-area: write;
+
+        & .card__content {
+            padding-bottom: 35px;
+        }
+
+        & .button__card {
+            margin-bottom: 44px;
+        }
+    }
+    &__reading {
+        grid-area: read;
+
+        & .card__content {
+            padding-bottom: 35px;
+        }
+
+        & .button__card {
+            margin-bottom: 44px;
+        }
+    }
+    &__listening {
+        grid-area: listen;
+
+        & .card__title {
+            padding-top: 15px;
+        }
+
+        & .card__content {
+            padding-bottom: 25px;
+        }
+
+        & .button__card {
+            margin-bottom: 50px;
+        }
+    }
+}
