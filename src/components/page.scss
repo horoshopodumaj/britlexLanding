@@ -1,0 +1,9 @@
+.page {
+    display: flex;
+    flex-direction: column;
+
+    &__box {
+        margin: 0 auto;
+        max-width: 1338px;
+    }
+}
