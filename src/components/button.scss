@@ -25,4 +25,22 @@
         color: var(--white);
         background-color: var(--black);
     }
+
+    &__card-price {
+        width: 240px;
+        height: 45px;
+        border-radius: 5px;
+        background-color: var(--grey-4);
+
+        & span:first-child {
+            font-size: 30px;
+            line-height: 45px;
+            color: var(--black);
+        }
+        & span:last-child {
+            font-size: 18px;
+            line-height: 27px;
+            color: var(--grey-5);
+        }
+    }
 }

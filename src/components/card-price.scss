@@ -1,0 +1,30 @@
+.card-price {
+    flex: 0 1 33.3333%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+
+    &__img {
+        text-align: center;
+    }
+    &__title {
+        font-size: 30px;
+        line-height: 48px;
+        font-weight: 600;
+        color: var(--black);
+        padding-bottom: 20px;
+        padding-top: 40px;
+    }
+
+    &__text {
+        font-size: 20px;
+        line-height: 30px;
+        color: var(--grey-2);
+        padding-bottom: 20px;
+        flex: 1;
+    }
+
+    // & .button__card-price {
+    //     margin-bottom: 20px;
+    // }
+}
