@@ -3,9 +3,22 @@
         display: flex;
         gap: 200px;
         align-items: center;
+
+        @media screen and (max-width: 425px) {
+            flex-direction: column;
+        }
+    }
+
+    &__content {
+        @media screen and (max-width: 425px) {
+            order: 2;
+        }
     }
 
     &__img {
+        @media screen and (max-width: 425px) {
+            order: 1;
+        }
         & svg {
             height: 500px;
             width: 500px;
@@ -38,11 +51,34 @@
         line-height: 30px;
         color: var(--grey-2);
         padding: 20px 0 30px;
+
+        @media screen and (max-width: 425px) {
+            font-size: 13px;
+            line-height: 19.5px;
+        }
+        @media screen and (max-width: 575px) and (min-width: 426px) {
+            font-size: 14px;
+            line-height: 21px;
+        }
+        @media screen and (max-width: 767px) and (min-width: 576px) {
+            font-size: 14px;
+            line-height: 21px;
+        }
+
+        @media screen and (max-width: 992px) and (min-width: 768px) {
+            font-size: 16px;
+            line-height: 24px;
+        }
     }
 
     &__numbers {
         display: flex;
         justify-content: space-between;
+
+        @media screen and (max-width: 425px) {
+            flex-direction: column;
+            gap: 30px;
+        }
     }
     &__pupils {
         text-align: center;
@@ -51,11 +87,42 @@
             font-size: 48px;
             line-height: 80px;
             color: var(--black-3);
+            @media screen and (max-width: 425px) {
+                font-size: 24px;
+            }
+            @media screen and (max-width: 575px) and (min-width: 426px) {
+                font-size: 24px;
+            }
+            @media screen and (max-width: 767px) and (min-width: 576px) {
+                font-size: 22px;
+            }
+
+            @media screen and (max-width: 992px) and (min-width: 768px) {
+                font-size: 30px;
+            }
         }
         & p:last-child {
             font-size: 20px;
             line-height: 30px;
             color: var(--grey-2);
+
+            @media screen and (max-width: 425px) {
+                font-size: 15px;
+                line-height: 22.5px;
+            }
+            @media screen and (max-width: 575px) and (min-width: 426px) {
+                font-size: 14px;
+                line-height: 21px;
+            }
+            @media screen and (max-width: 767px) and (min-width: 576px) {
+                font-size: 13px;
+                line-height: 19.5px;
+            }
+
+            @media screen and (max-width: 992px) and (min-width: 768px) {
+                font-size: 16px;
+                line-height: 24px;
+            }
         }
     }
 
@@ -66,12 +133,42 @@
             font-size: 48px;
             line-height: 80px;
             color: var(--black-3);
+            @media screen and (max-width: 425px) {
+                font-size: 24px;
+            }
+            @media screen and (max-width: 575px) and (min-width: 426px) {
+                font-size: 24px;
+            }
+            @media screen and (max-width: 767px) and (min-width: 576px) {
+                font-size: 22px;
+            }
+
+            @media screen and (max-width: 992px) and (min-width: 768px) {
+                font-size: 30px;
+            }
         }
 
         & p:last-child {
             font-size: 20px;
             line-height: 30px;
             color: var(--grey-2);
+            @media screen and (max-width: 425px) {
+                font-size: 15px;
+                line-height: 22.5px;
+            }
+            @media screen and (max-width: 575px) and (min-width: 426px) {
+                font-size: 14px;
+                line-height: 21px;
+            }
+            @media screen and (max-width: 767px) and (min-width: 576px) {
+                font-size: 13px;
+                line-height: 19.5px;
+            }
+
+            @media screen and (max-width: 992px) and (min-width: 768px) {
+                font-size: 16px;
+                line-height: 24px;
+            }
         }
     }
     &__languages {
@@ -81,12 +178,42 @@
             font-size: 48px;
             line-height: 80px;
             color: var(--black-3);
+            @media screen and (max-width: 425px) {
+                font-size: 24px;
+            }
+            @media screen and (max-width: 575px) and (min-width: 426px) {
+                font-size: 24px;
+            }
+            @media screen and (max-width: 767px) and (min-width: 576px) {
+                font-size: 22px;
+            }
+
+            @media screen and (max-width: 992px) and (min-width: 768px) {
+                font-size: 30px;
+            }
         }
 
         & p:last-child {
             font-size: 20px;
             line-height: 30px;
             color: var(--grey-2);
+            @media screen and (max-width: 425px) {
+                font-size: 15px;
+                line-height: 22.5px;
+            }
+            @media screen and (max-width: 575px) and (min-width: 426px) {
+                font-size: 14px;
+                line-height: 21px;
+            }
+            @media screen and (max-width: 767px) and (min-width: 576px) {
+                font-size: 13px;
+                line-height: 19.5px;
+            }
+
+            @media screen and (max-width: 992px) and (min-width: 768px) {
+                font-size: 16px;
+                line-height: 24px;
+            }
         }
     }
 }
