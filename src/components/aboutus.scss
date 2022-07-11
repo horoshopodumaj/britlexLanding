@@ -5,6 +5,30 @@
         align-items: center;
     }
 
+    &__img {
+        & svg {
+            height: 500px;
+            width: 500px;
+            @media screen and (max-width: 425px) {
+                height: 283px;
+                width: 283px;
+            }
+            @media screen and (max-width: 575px) and (min-width: 426px) {
+                height: 352px;
+                width: 352px;
+            }
+            @media screen and (max-width: 767px) and (min-width: 576px) {
+                height: 295px;
+                width: 295px;
+            }
+
+            @media screen and (max-width: 992px) and (min-width: 768px) {
+                height: 336px;
+                width: 336px;
+            }
+        }
+    }
+
     &__title {
         text-align: left;
     }

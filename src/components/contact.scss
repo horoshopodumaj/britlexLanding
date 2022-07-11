@@ -5,6 +5,10 @@
         align-items: center;
         gap: 100px;
 
+        @media screen and (max-width: 575px) {
+            flex-direction: column;
+        }
+
         & input::-webkit-input-placeholder {
             color: var(--grey-2);
             font-size: 16px;
@@ -45,5 +49,27 @@
         line-height: 30px;
         color: var(--grey-2);
         padding-bottom: 52px;
+    }
+
+    &__img svg {
+        height: 429px;
+        width: 477px;
+        @media screen and (max-width: 425px) {
+            height: 228px;
+            width: 253px;
+        }
+        @media screen and (max-width: 575px) and (min-width: 426px) {
+            height: 322px;
+            width: 358px;
+        }
+        @media screen and (max-width: 767px) and (min-width: 576px) {
+            height: 210px;
+            width: 233px;
+        }
+
+        @media screen and (max-width: 992px) and (min-width: 768px) {
+            height: 312px;
+            width: 281px;
+        }
     }
 }

@@ -1,16 +1,17 @@
 .skills {
-    // &__body {
-    //     margin-bottom: 282px;
-    // }
-
     &__content {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 1.5fr 0.8fr;
-        grid-template-areas:
-            "speak write read"
-            "speak listen listen";
-        grid-gap: 18px;
+        display: flex;
+        flex-direction: column;
+
+        @media screen and (min-width: 425px) {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 1.5fr 0.8fr;
+            grid-template-areas:
+                "speak write read"
+                "speak listen listen";
+            grid-gap: 18px;
+        }
     }
     &__speaking {
         grid-area: speak;
@@ -25,6 +26,28 @@
 
         & .card__img {
             text-align: center;
+        }
+
+        & svg {
+            height: 390px;
+            width: 390px;
+            @media screen and (max-width: 425px) {
+                height: 213px;
+                width: 213px;
+            }
+            @media screen and (max-width: 575px) and (min-width: 426px) {
+                height: 185px;
+                width: 185px;
+            }
+            @media screen and (max-width: 767px) and (min-width: 576px) {
+                height: 214px;
+                width: 214px;
+            }
+
+            @media screen and (max-width: 992px) and (min-width: 768px) {
+                height: 260px;
+                width: 260px;
+            }
         }
     }
 
@@ -42,6 +65,28 @@
         & .card__img {
             text-align: end;
         }
+
+        & svg {
+            height: 247px;
+            width: 293px;
+            @media screen and (max-width: 425px) {
+                height: 204px;
+                width: 204px;
+            }
+            @media screen and (max-width: 575px) and (min-width: 426px) {
+                height: 182px;
+                width: 182px;
+            }
+            @media screen and (max-width: 767px) and (min-width: 576px) {
+                height: 200px;
+                width: 200px;
+            }
+
+            @media screen and (max-width: 992px) and (min-width: 768px) {
+                height: 205px;
+                width: 205px;
+            }
+        }
     }
     &__reading {
         grid-area: read;
@@ -52,6 +97,28 @@
 
         & .button__card {
             margin-bottom: 44px;
+        }
+
+        & svg {
+            height: 247px;
+            width: 371px;
+            @media screen and (max-width: 425px) {
+                height: 157px;
+                width: 236px;
+            }
+            @media screen and (max-width: 575px) and (min-width: 426px) {
+                height: 132px;
+                width: 198px;
+            }
+            @media screen and (max-width: 767px) and (min-width: 576px) {
+                height: 144px;
+                width: 216px;
+            }
+
+            @media screen and (max-width: 992px) and (min-width: 768px) {
+                height: 162px;
+                width: 243px;
+            }
         }
     }
     &__listening {
@@ -67,6 +134,44 @@
 
         & .button__card {
             margin-bottom: 50px;
+        }
+
+        & .card__img svg {
+            width: 382px;
+            height: 255px;
+        }
+
+        @media screen and (max-width: 425px) {
+            flex-direction: column;
+            & .card__img {
+                order: 1;
+            }
+
+            & .card__body {
+                order: 2;
+            }
+        }
+
+        & svg {
+            height: 255px;
+            width: 382px;
+            @media screen and (max-width: 425px) {
+                height: 154px;
+                width: 232px;
+            }
+            @media screen and (max-width: 575px) and (min-width: 426px) {
+                height: 137px;
+                width: 206px;
+            }
+            @media screen and (max-width: 767px) and (min-width: 576px) {
+                height: 134px;
+                width: 202px;
+            }
+
+            @media screen and (max-width: 992px) and (min-width: 768px) {
+                height: 169px;
+                width: 254px;
+            }
         }
     }
 }

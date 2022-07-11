@@ -3,12 +3,47 @@
         display: flex;
         gap: 155px;
         align-items: center;
+
+        @media screen and (max-width: 574px) {
+            flex-direction: column;
+        }
     }
 
     &__content {
         display: flex;
         flex-direction: column;
         position: relative;
+        @media screen and (max-width: 575px) {
+            order: 2;
+        }
+    }
+
+    &__picture {
+        @media screen and (max-width: 575px) {
+            order: 1;
+        }
+
+        & svg {
+            height: 661px;
+            width: 661px;
+            @media screen and (max-width: 425px) {
+                height: 290px;
+                width: 290px;
+            }
+            @media screen and (max-width: 575px) and (min-width: 426px) {
+                height: 424px;
+                width: 424px;
+            }
+            @media screen and (max-width: 767px) and (min-width: 576px) {
+                height: 352px;
+                width: 352px;
+            }
+
+            @media screen and (max-width: 992px) and (min-width: 768px) {
+                height: 460px;
+                width: 460px;
+            }
+        }
     }
 
     &__title {
@@ -29,5 +64,9 @@
         position: absolute;
         top: 90px;
         left: 415px;
+
+        @media screen and (max-width: 575px) {
+            display: none;
+        }
     }
 }
