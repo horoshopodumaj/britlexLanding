@@ -403,6 +403,50 @@ h6 {
   flex: 1;
 }
 
+.contact {
+  padding-bottom: 133px;
+}
+.contact__content {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.contact__content input::-webkit-input-placeholder {
+  color: var(--grey-2);
+  font-size: 16px;
+  line-height: 24px;
+}
+.contact__title {
+  text-align: left;
+  padding-bottom: 37px;
+}
+.contact__input {
+  border: 1px solid var(--grey-2);
+  border-radius: 10px;
+  padding: 28px 33px;
+  width: 60%;
+}
+.contact__form {
+  display: flex;
+  flex-direction: column;
+}
+.contact__submit {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  color: var(--white);
+  background-color: var(--black);
+  border-radius: 10px;
+  padding: 22px 82px;
+  margin-left: 10px;
+}
+.contact__text {
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--grey-2);
+  padding-bottom: 52px;
+}
+
 .footer__divider {
   background-color: var(--grey-6);
   height: 1px;

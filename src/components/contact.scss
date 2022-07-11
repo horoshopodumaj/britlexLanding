@@ -1,0 +1,49 @@
+.contact {
+    padding-bottom: 133px;
+    &__content {
+        display: flex;
+        align-items: center;
+        gap: 100px;
+
+        & input::-webkit-input-placeholder {
+            color: var(--grey-2);
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+
+    &__title {
+        text-align: left;
+        padding-bottom: 37px;
+    }
+
+    &__input {
+        border: 1px solid var(--grey-2);
+        border-radius: 10px;
+        padding: 28px 33px;
+        width: 60%;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__submit {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 500;
+        color: var(--white);
+        background-color: var(--black);
+        border-radius: 10px;
+        padding: 22px 82px;
+        margin-left: 10px;
+    }
+
+    &__text {
+        font-size: 20px;
+        line-height: 30px;
+        color: var(--grey-2);
+        padding-bottom: 52px;
+    }
+}
