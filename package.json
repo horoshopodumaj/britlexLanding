@@ -1,22 +1,32 @@
 {
-  "name": "britlexlanding",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/horoshopodumaj/britlexLanding.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/horoshopodumaj/britlexLanding/issues"
-  },
-  "homepage": "https://github.com/horoshopodumaj/britlexLanding#readme",
-  "devDependencies": {
-    "sass": "^1.53.0"
-  }
+    "name": "britlexlanding",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "npx postcss src/index.scss -o css/index.css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/horoshopodumaj/britlexLanding.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/horoshopodumaj/britlexLanding/issues"
+    },
+    "homepage": "https://github.com/horoshopodumaj/britlexLanding#readme",
+    "devDependencies": {
+        "autoprefixer": "^10.4.7",
+        "cssnano": "^5.1.12",
+        "postcss": "^8.4.14",
+        "postcss-advanced-variables": "^3.0.1",
+        "postcss-cli": "^10.0.0",
+        "postcss-import": "^14.1.0",
+        "postcss-nested": "^5.0.6",
+        "postcss-scss": "^4.0.4",
+        "postcss-strip-inline-comments": "^0.1.5",
+        "sass": "^1.53.0"
+    }
 }
