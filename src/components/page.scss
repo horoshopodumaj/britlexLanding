@@ -7,18 +7,8 @@
         margin: 0 auto;
         max-width: 1338px;
 
-        @media screen and (max-width: 425px) {
+        @media screen and (max-width: 1337px) {
             padding: 0 15px;
-        }
-        @media screen and (max-width: 575px) and (min-width: 426px) {
-            padding: 0 42px;
-        }
-        @media screen and (max-width: 767px) and (min-width: 576px) {
-            padding: 0 39px;
-        }
-
-        @media screen and (max-width: 992px) and (min-width: 768px) {
-            padding: 0 30px;
         }
     }
 
@@ -29,13 +19,57 @@
     &__skills {
         margin-top: 100px;
         margin-bottom: 235px;
+        @media screen and (max-width: 425px) {
+            margin-top: 50px;
+            margin-bottom: 75px;
+        }
+        @media screen and (max-width: 575px) and (min-width: 426px) {
+            margin-top: 60px;
+            margin-bottom: 75px;
+        }
+        @media screen and (max-width: 767px) and (min-width: 576px) {
+            margin-top: 65px;
+            margin-bottom: 90px;
+        }
+
+        @media screen and (max-width: 992px) and (min-width: 768px) {
+            margin-top: 70px;
+            margin-bottom: 100px;
+        }
     }
 
     &__title {
         margin-bottom: 80px;
+
+        @media screen and (max-width: 425px) {
+            margin-bottom: 40px;
+        }
+        @media screen and (max-width: 575px) and (min-width: 426px) {
+            margin-bottom: 50px;
+        }
+        @media screen and (max-width: 767px) and (min-width: 576px) {
+            margin-bottom: 60px;
+        }
+
+        @media screen and (max-width: 992px) and (min-width: 768px) {
+            margin-bottom: 70px;
+        }
     }
 
     &__aboutus {
         margin-bottom: 220px;
+        @media screen and (max-width: 425px) {
+            margin-bottom: 70px;
+        }
+        @media screen and (max-width: 575px) and (min-width: 426px) {
+            margin-bottom: 80px;
+        }
+        @media screen and (max-width: 767px) and (min-width: 576px) {
+            margin-bottom: 90px;
+        }
+
+        @media screen and (max-width: 992px) and (min-width: 768px) {
+            margin-bottom: 100px;
+        }
     }
 }

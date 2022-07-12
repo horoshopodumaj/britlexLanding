@@ -4,9 +4,17 @@
         gap: 155px;
         align-items: center;
 
-        @media screen and (max-width: 574px) {
+        @media screen and (max-width: 575px) {
             flex-direction: column;
             gap: 20px;
+        }
+
+        @media screen and (max-width: 991px) and (min-width: 576px) {
+            gap: 10px;
+        }
+
+        @media screen and (max-width: 1300px) and (min-width: 992px) {
+            gap: 40px;
         }
     }
 
@@ -36,7 +44,12 @@
                 height: 424px;
                 width: 424px;
             }
-            @media screen and (max-width: 767px) and (min-width: 576px) {
+
+            @media screen and (max-width: 615px) and (min-width: 576px) {
+                height: 320px;
+                width: 320px;
+            }
+            @media screen and (max-width: 767px) and (min-width: 616px) {
                 height: 352px;
                 width: 352px;
             }
@@ -44,6 +57,11 @@
             @media screen and (max-width: 992px) and (min-width: 768px) {
                 height: 460px;
                 width: 460px;
+            }
+
+            @media screen and (max-width: 1300px) and (min-width: 993px) {
+                height: 500px;
+                width: 500px;
             }
         }
     }
@@ -67,7 +85,7 @@
             line-height: 45px;
         }
 
-        @media screen and (max-width: 992px) and (min-width: 768px) {
+        @media screen and (max-width: 1300px) and (min-width: 768px) {
             font-size: 48px;
             line-height: 64px;
         }
@@ -83,19 +101,23 @@
             font-size: 14px;
             line-height: 21px;
             align-items: center;
+            padding: 15px 0;
         }
         @media screen and (max-width: 575px) and (min-width: 426px) {
             font-size: 16px;
             line-height: 24px;
+            padding: 10px 0 20px;
         }
         @media screen and (max-width: 767px) and (min-width: 576px) {
             font-size: 16px;
             line-height: 24px;
+            padding: 10px 0 20px;
         }
 
-        @media screen and (max-width: 992px) and (min-width: 768px) {
+        @media screen and (max-width: 1300px) and (min-width: 768px) {
             font-size: 20px;
             line-height: 30px;
+            padding: 20px 0 20px;
         }
     }
 
@@ -104,7 +126,7 @@
         top: 90px;
         left: 415px;
 
-        @media screen and (max-width: 575px) {
+        @media screen and (max-width: 1300px) {
             display: none;
         }
     }

@@ -5,8 +5,22 @@
         gap: 20px;
         margin-bottom: 220px;
 
-        @media screen and (max-width: 575px) {
+        @media screen and (max-width: 670px) {
             flex-direction: column;
+            gap: 15px;
+            margin-bottom: 80px;
+        }
+
+        @media screen and (max-width: 992px) and (min-width: 671px) {
+            gap: 5px;
+        }
+
+        @media screen and (max-width: 767px) and (min-width: 576px) {
+            margin-bottom: 90px;
+        }
+
+        @media screen and (max-width: 992px) and (min-width: 768px) {
+            margin-bottom: 100px;
         }
     }
 }
