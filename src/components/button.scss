@@ -7,6 +7,10 @@
     background-color: var(--white);
     width: 220px;
     height: 70px;
+    &:hover {
+        background-color: var(--black);
+        color: var(--white);
+    }
 
     &__welcome {
         height: 118px;
@@ -16,6 +20,11 @@
         line-height: 54px;
         color: var(--white);
         background-color: var(--black);
+
+        &:hover {
+            background-color: var(--white);
+            color: var(--black);
+        }
 
         @media screen and (max-width: 425px) {
             width: 100%;
@@ -55,6 +64,10 @@
         font-weight: 500;
         color: var(--white);
         background-color: var(--black);
+        &:hover {
+            background-color: var(--white);
+            color: var(--black);
+        }
 
         @media screen and (max-width: 425px) {
             width: 100%;
@@ -89,6 +102,10 @@
         height: 45px;
         border-radius: 5px;
         background-color: var(--grey-4);
+        border: 2px solid var(--grey-4);
+        &:hover {
+            background-color: var(--white);
+        }
 
         @media screen and (max-width: 425px) {
             width: 100%;
